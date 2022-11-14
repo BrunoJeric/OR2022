@@ -1,0 +1,234 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "Founder",
+        "Name",
+        "Location",
+        "Status",
+        "Founded",
+        "Rulers",
+        "Type",
+        "Religion",
+        "FandomURL",
+        "PlacesOfNote"
+    ],
+    "properties": {
+        "Founder": {
+            "type": "object",
+            "default": {},
+            "title": "The Founder Schema",
+            "required": [
+                "BirthName",
+                "FamilyName",
+                "Alias"
+            ],
+            "properties": {
+                "BirthName": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The BirthName Schema",
+                    "examples": [
+                        "Harren"
+                    ]
+                },
+                "FamilyName": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The FamilyName Schema",
+                    "examples": [
+                        "Hoare"
+                    ]
+                },
+                "Alias": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The Alias Schema",
+                    "examples": [
+                        "Harren the Black"
+                    ]
+                }
+            },
+            "examples": [{
+                "BirthName": "Harren",
+                "FamilyName": "Hoare",
+                "Alias": "Harren the Black"
+            }]
+        },
+        "Name": {
+            "type": "string",
+            "default": "",
+            "title": "The Name Schema",
+            "examples": [
+                "Harrenhal"
+            ]
+        },
+        "Location": {
+            "type": "string",
+            "default": "",
+            "title": "The Location Schema",
+            "examples": [
+                "The north shore of the Gods Eye, the Riverlands"
+            ]
+        },
+        "Status": {
+            "type": "string",
+            "default": "",
+            "title": "The Status Schema",
+            "examples": [
+                "Mostly Ruined"
+            ]
+        },
+        "Founded": {
+            "type": "string",
+            "default": "",
+            "title": "The Founded Schema",
+            "examples": [
+                "2BC"
+            ]
+        },
+        "Rulers": {
+            "type": "array",
+            "default": [],
+            "title": "The Rulers Schema",
+            "items": {
+                "type": "object",
+                "title": "A Schema",
+                "required": [
+                    "House",
+                    "Sigil"
+                ],
+                "properties": {
+                    "House": {
+                        "type": "string",
+                        "title": "The House Schema",
+                        "examples": [
+                            "House Baeilsh",
+                            "House Bolton",
+                            "House Lannister"
+                        ]
+                    },
+                    "Sigil": {
+                        "type": "string",
+                        "title": "The Sigil Schema",
+                        "examples": [
+                            "A black mockingbird on a yellow field",
+                            "A red flayed man, hanging upside-down on a white X-shaped cross, on a black field",
+                            "A golden lion rampant on a crimson field"
+                        ]
+                    }
+                },
+                "examples": [{
+                    "House": "House Baeilsh",
+                    "Sigil": "A black mockingbird on a yellow field"
+                },
+                {
+                    "House": "House Bolton",
+                    "Sigil": "A red flayed man, hanging upside-down on a white X-shaped cross, on a black field"
+                },
+                {
+                    "House": "House Lannister",
+                    "Sigil": "A golden lion rampant on a crimson field"
+                }]
+            },
+            "examples": [
+                [{
+                    "House": "House Baeilsh",
+                    "Sigil": "A black mockingbird on a yellow field"
+                },
+                {
+                    "House": "House Bolton",
+                    "Sigil": "A red flayed man, hanging upside-down on a white X-shaped cross, on a black field"
+                },
+                {
+                    "House": "House Lannister",
+                    "Sigil": "A golden lion rampant on a crimson field"
+                }]
+            ]
+        },
+        "Type": {
+            "type": "string",
+            "default": "",
+            "title": "The Type Schema",
+            "examples": [
+                "Castle"
+            ]
+        },
+        "Religion": {
+            "type": "string",
+            "default": "",
+            "title": "The Religion Schema",
+            "examples": [
+                "Faith of the Seven"
+            ]
+        },
+        "FandomURL": {
+            "type": "string",
+            "default": "",
+            "title": "The FandomURL Schema",
+            "examples": [
+                "https://gameofthrones.fandom.com/wiki/Harrenhal"
+            ]
+        },
+        "PlacesOfNote": {
+            "type": "array",
+            "default": [],
+            "title": "The PlacesOfNote Schema",
+            "items": {
+                "type": "string",
+                "title": "A Schema",
+                "examples": [
+                    "Kingspyre Tower",
+                    "Tower of Dread",
+                    "Widow's  Tower",
+                    "Wailing Tower",
+                    "Tower of Ghosts"
+                ]
+            },
+            "examples": [
+                ["Kingspyre Tower",
+                    "Tower of Dread",
+                    "Widow's  Tower",
+                    "Wailing Tower",
+                    "Tower of Ghosts"
+                ]
+            ]
+        }
+    },
+    "examples": [{
+        "Founder": {
+            "BirthName": "Harren",
+            "FamilyName": "Hoare",
+            "Alias": "Harren the Black"
+        },
+        "Name": "Harrenhal",
+        "Location": "The north shore of the Gods Eye, the Riverlands",
+        "Status": "Mostly Ruined",
+        "Founded": "2BC",
+        "Rulers": [{
+            "House": "House Baeilsh",
+            "Sigil": "A black mockingbird on a yellow field"
+        },
+        {
+            "House": "House Bolton",
+            "Sigil": "A red flayed man, hanging upside-down on a white X-shaped cross, on a black field"
+        },
+        {
+            "House": "House Lannister",
+            "Sigil": "A golden lion rampant on a crimson field"
+        }],
+        "Type": "Castle",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Harrenhal",
+        "PlacesOfNote": [
+            "Kingspyre Tower",
+            "Tower of Dread",
+            "Widow's  Tower",
+            "Wailing Tower",
+            "Tower of Ghosts"
+        ]
+    }]
+}

@@ -1,0 +1,335 @@
+[
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c579d"
+        },
+        "Name": "Harrenhal",
+        "Location": "The north shore of the Gods Eye, the Riverlands",
+        "Status": "Mostly Ruined",
+        "Founded": "2BC",
+        "Founder": {
+            "BirthName": "Harren",
+            "FamilyName": "Hoare",
+            "Alias": "Harren the Black"
+        },
+        "Rulers": [
+            {
+                "House": "House Baeilsh",
+                "Sigil": "A black mockingbird on a yellow field"
+            },
+            {
+                "House": "House Bolton",
+                "Sigil": "A red flayed man, hanging upside-down on a white X-shaped cross, on a black field"
+            },
+            {
+                "House": "House Lannister",
+                "Sigil": "A golden lion rampant on a crimson field"
+            }
+        ],
+        "Type": "Castle",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Harrenhal",
+        "PlacesOfNote": [
+            "Kingspyre Tower",
+            "Tower of Dread",
+            "Widow's  Tower",
+            "Wailing Tower",
+            "Tower of Ghosts"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c579e"
+        },
+        "Name": "Storm's End",
+        "Location": "The Stormlands",
+        "Status": "Habited",
+        "Founded": "Dawn Age",
+        "Founder": {
+            "BirthName": "Durran",
+            "FamilyName": "Godsgrief",
+            "Alias": "unknown"
+        },
+        "Rulers": [
+            {
+                "House": "House Baratheon of Dragonstone",
+                "Sigil": "A crowned black stag's head within a fiery red heart"
+            },
+            {
+                "House": "House Baratheon of King's Landing",
+                "Sigil": "A black crowned stag and a gold lion combatant on a per pale gold and red field"
+            },
+            {
+                "House": "House Baratheon",
+                "Sigil": "A crowned black stag salient on a gold"
+            }
+        ],
+        "Type": "Castle, Region Capital",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Storm%27s_End",
+        "PlacesOfNote": [
+            "Round Hall"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c579f"
+        },
+        "Name": "Eyrie",
+        "Location": "Giant's Lance, the Vale of Arryn",
+        "Status": "Habited",
+        "Founded": "6000BC",
+        "Founder": {
+            "BirthName": "Artys",
+            "FamilyName": "Arryn",
+            "Alias": "the Falcon Knight"
+        },
+        "Rulers": [
+            {
+                "House": "House Arryn",
+                "Sigil": "A white falcon volant and crescent moon on a blue field"
+            }
+        ],
+        "Type": "Castle",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Eyrie",
+        "PlacesOfNote": [
+            "High Hall",
+            "Sky cells"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c57a0"
+        },
+        "Name": "Pyke",
+        "Location": "Pyke, the Iron Islands",
+        "Status": "Habited",
+        "Founded": "Dawn Age",
+        "Founder": {
+            "BirthName": "Unknown",
+            "FamilyName": "Unknown",
+            "Alias": "Unknown"
+        },
+        "Rulers": [
+            {
+                "House": "House Greyjoy",
+                "Sigil": "A gold kraken on a black field"
+            }
+        ],
+        "Type": "Castle, Region Capital",
+        "Religion": "Drowned God",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Pyke",
+        "PlacesOfNote": [
+            "The Great Keep",
+            "Bloody Keep"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c57a1"
+        },
+        "Name": "Riverrun",
+        "Location": "The Riverlands",
+        "Status": "Habited",
+        "Founded": "1000BC",
+        "Founder": {
+            "BirthName": "Axel",
+            "FamilyName": "Tully",
+            "Alias": "Unknown"
+        },
+        "Rulers": [
+            {
+                "House": "House Tully",
+                "Sigil": "A silver trout leaping on a red chief, over white waves and a blue base"
+            },
+            {
+                "House": "House Frey",
+                "Sigil": "Two grey stone towers connected by a bridge, on a dark grey field, surmounting a base of blue water"
+            }
+        ],
+        "Type": "Castle, Region Capital",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Riverrun",
+        "PlacesOfNote": [
+            "Great Hall",
+            "Sept",
+            "Godswood",
+            "Triangular keep"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c57a2"
+        },
+        "Name": "Winterfell",
+        "Location": "The North",
+        "Status": "Habited",
+        "Founded": "8000BC",
+        "Founder": {
+            "BirthName": "Brandon",
+            "FamilyName": "Stark",
+            "Alias": "Bran the Builder"
+        },
+        "Rulers": [
+            {
+                "House": "House Stark",
+                "Sigil": "A grey direwolf's head facing sinister on a white field and a green base"
+            },
+            {
+                "House": "House Greyjoy",
+                "Sigil": "A gold kraken on a black field"
+            },
+            {
+                "House": "House Bolton",
+                "Sigil": "A red flayed man, hanging upside-down on a white X-shaped cross, on a black field"
+            }
+        ],
+        "Type": "Castle, Region Capital",
+        "Religion": "Old Gods of the Forest",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Winterfell",
+        "PlacesOfNote": [
+            "The Great Keep",
+            "The First Keep",
+            "The godswood",
+            "The Great Hall",
+            "The crypts"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c57a3"
+        },
+        "Name": "Dragonstone",
+        "Location": "Dragonstone, Blackwater Bay",
+        "Status": "Habited",
+        "Founded": "324BC",
+        "Founder": {
+            "BirthName": "Unknown",
+            "FamilyName": "Unknown",
+            "Alias": "Unknown"
+        },
+        "Rulers": [
+            {
+                "House": "House Targaryen",
+                "Sigil": "A red three-headed dragon on a black field"
+            },
+            {
+                "House": "House Baratheon of Dragonstone",
+                "Sigil": "A crowned black stag's head within a fiery red heart"
+            }
+        ],
+        "Type": "Castle",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Dragonstone",
+        "PlacesOfNote": [
+            "Chamber of the Painted Table"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c57a4"
+        },
+        "Name": "Casterly Rock",
+        "Location": "Westerlands",
+        "Status": "Habited",
+        "Founded": "6000BC",
+        "Founder": {
+            "BirthName": "Unknown",
+            "FamilyName": "Unknown",
+            "Alias": "Corlos"
+        },
+        "Rulers": [
+            {
+                "House": "House Casterly",
+                "Sigil": "Unknown"
+            },
+            {
+                "House": "House Lannister",
+                "Sigil": "A golden lion rampant on a crimson field"
+            }
+        ],
+        "Type": "Castle",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Casterly_Rock",
+        "PlacesOfNote": [
+            "Golden Gallery"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c57a5"
+        },
+        "Name": "Highgarden",
+        "Location": "The Reach",
+        "Status": "Habited",
+        "Founded": "Age of Heroes",
+        "Founder": {
+            "BirthName": "Garth",
+            "FamilyName": "Gardener",
+            "Alias": "Garth Greenhand"
+        },
+        "Rulers": [
+            {
+                "House": "House Gardener",
+                "Sigil": "A green hand on a white field"
+            },
+            {
+                "House": "Bronn's house",
+                "Sigil": "A flaming arrow bendwise"
+            },
+            {
+                "House": "House Tyrell",
+                "Sigil": "A golden rose on a green field"
+            }
+        ],
+        "Type": "Castle",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Highgarden",
+        "PlacesOfNote": [
+            "Three Singers",
+            "Briar maze",
+            "Sept"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "6361602fbd12e1e52e4c57a6"
+        },
+        "Name": "Red Keep",
+        "Location": "King's Landing",
+        "Status": "Habited, Partially rebuilt",
+        "Founded": "1AC",
+        "Founder": {
+            "BirthName": "Aegon I",
+            "FamilyName": "Targaryen",
+            "Alias": "Aegon the Conqueror"
+        },
+        "Rulers": [
+            {
+                "House": "House Targaryen",
+                "Sigil": "A red three-headed dragon on a black field"
+            },
+            {
+                "House": "House Lannister",
+                "Sigil": "A golden lion rampant on a crimson field"
+            },
+            {
+                "House": "House Baratheon of King's Landing",
+                "Sigil": "A black crowned stag and a gold lion combatant on a per pale gold and red field"
+            }
+        ],
+        "Type": "Castle, Capital",
+        "Religion": "Faith of the Seven",
+        "FandomURL": "https://gameofthrones.fandom.com/wiki/Red_Keep",
+        "PlacesOfNote": [
+            "Great Hall",
+            "Maegor's Holdfast",
+            "Tower of the Hand",
+            "White Sword Tower",
+            "The Maidenvault",
+            "Traitor's Walk",
+            "Black Cells"
+        ]
+    }
+]
